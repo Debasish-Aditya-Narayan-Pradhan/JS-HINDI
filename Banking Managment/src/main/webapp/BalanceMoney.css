@@ -1,0 +1,44 @@
+/* StyleM.css */
+
+.Container {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2ecc71;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+a {
+    display: inline-block;
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+a:hover {
+    background: linear-gradient(135deg, #27ae60, #2ecc71);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
